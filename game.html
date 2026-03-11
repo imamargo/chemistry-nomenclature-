@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Практическая часть</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/game.css') }}">
+</head>
+<body>
+    <h1 id="main">Игра "Изучение названий неорганических веществ"</h1>
+    <p id="dop">В игре будут встречатся систематические и тривиальные названия.</p>
+    <p id="dop1">Твоя задача - написать формулу вещества, которое будет высвечиваться на экране.</p>
+    <p id="ex">Пример: гидроксид амония - NH3 * H2O</p>
+    <label for="ans">Введите название вещества:</label>
+    <p id="quest"></p>
+    <input type="text" id="ans" name="ans" placeholder="Ответ"><br><br><br>
+
+</body>
+</html>
+    <p id="k"></p>
+    <button id="button2">Проверить ответ</button>
+    <p id="res"></p>
+    <button id="button3">Следующий вопрос</button>
+    <script src="{{ url_for('static', filename='scripts/script.js') }}"></script>
+
+
+
+</body>
+</html>

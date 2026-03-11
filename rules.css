@@ -1,0 +1,37 @@
+body {
+    background-image: url("фон1.jpg");
+    font-family: 'Arial';
+}
+
+#rules {
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 200%;
+    color: rgb(46, 104, 166)
+}
+#guess {
+    font-size: 90%;
+}
+#guess1 {
+    font-size: 90%;
+}
+#b2 {
+  display: inline-block; /* Делает ссылку блочным элементом, чтобы можно было задать ширину, высоту и отступы */
+  padding: 10px 20px; /* Отступы внутри кнопки */
+  font-size: 16px; /* Размер шрифта */
+  text-decoration: none; /* Убирает подчеркивание ссылки */
+  background-color: rgb(46, 104, 166); /* Цвет фона */
+  color: white; /* Цвет текста */
+  border: none; /* Убирает границу */
+  border-radius: 5px; /* Закругление углов */
+  cursor: pointer; /* Изменяет курсор при наведении */
+  text-align: center;
+}
+
+#b2:hover {
+  background-color: rgb(13, 86, 163);; /* Изменяет цвет фона при наведении */
+}
+#color1 {
+    color: (0, 62, 128);
+}
+

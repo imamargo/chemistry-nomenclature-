@@ -1,0 +1,49 @@
+body {
+    background-image: url("фон1.jpg");
+}
+
+p {
+    font-family: "Arial";
+    font-weight: bold;
+    text-align: center;
+}
+#o12345 {
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 200%;
+    text-align: center;
+    color: rgb(31, 95, 163);
+}
+#i123 {
+    color: rgb(178, 34, 34);
+    text-align: center;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin: 0 auto;
+    opacity: 0.5;
+}
+#i123 {
+  display: inline-block; /* Делает ссылку блочным элементом, чтобы можно было задать ширину, высоту и отступы */
+  padding: 10px 20px; /* Отступы внутри кнопки */
+  font-size: 16px; /* Размер шрифта */
+  text-decoration: none; /* Убирает подчеркивание ссылки */
+  background-color: rgb(46, 104, 166); /* Цвет фона */
+  color: white; /* Цвет текста */
+  border: none; /* Убирает границу */
+  border-radius: 5px; /* Закругление углов */
+  cursor: pointer; /* Изменяет курсор при наведении */
+}
+
+#i123:hover {
+  background-color: rgb(13, 86, 163);; /* Изменяет цвет фона при наведении */
+}
+
+#ooo {
+    text-align: center;
+    color: rgb(190, 34, 34)
+    font-weight: bold;
+}
